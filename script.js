@@ -402,7 +402,7 @@ const $lines = [
 
 function handleYes() {
   if (proposalClicked) return;
-  const line = flirtyLines[Math.floor(Math.random() * $lines.length)];
+  const line = $lines[Math.floor(Math.random() * $lines.length)];
   game.kitty.animation = "excited";
   endOverlay.innerHTML = `<p>${line}</p>`;
   proposalClicked = true;
