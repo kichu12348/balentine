@@ -1,4 +1,4 @@
-/* function resizeCanvas() {
+function resizeCanvas() {
   const screenElement = document.querySelector(".screen");
   const screenWidth = screenElement.offsetWidth;
   const screenHeight = screenElement.offsetHeight;
@@ -539,4 +539,4 @@ buttons.forEach((btn, i) => {
 
 // Start
 setInterval(spawnCookie, 1000);
-gameLoop();*/
+gameLoop();
