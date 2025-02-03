@@ -349,6 +349,7 @@ const proposalMessages = [
   { msg: "Can I be your player 2?", yes: "PLAY!", no: "quit" },
   { msg: "Want to be my purr-fect match?", yes: "Meow!", no: "nah" },
   { msg: "Stay and play forever?", yes: "YES!", no: "exit" },
+  { msg: "Will you be my ooo lala😏?", yes:"Oh yeahhh!", no:"Sorry papi"}
 ];
 
 function gameWin() {
